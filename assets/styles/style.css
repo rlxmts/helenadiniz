@@ -1,7 +1,35 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 900;
+}
+@font-face {
+  font-family: "Cormorant SC";
+  src: url("../fonts/Cormorant_SC/CormorantSC-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 700;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
   text-transform: none;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.esconderConteudo {
+  position: absolute;
+  left: -99999px;
 }/*# sourceMappingURL=style.css.map */
