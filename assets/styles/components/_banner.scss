@@ -1,0 +1,8 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+.banner__container{
+    .botao{
+        @include mixins.botao();
+    }
+}

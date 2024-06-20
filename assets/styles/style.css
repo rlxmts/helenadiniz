@@ -32,4 +32,17 @@
 .esconderConteudo {
   position: absolute;
   left: -99999px;
+}
+
+.banner__container .botao {
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #42707e;
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 0.7rem 1rem;
+  border: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */
